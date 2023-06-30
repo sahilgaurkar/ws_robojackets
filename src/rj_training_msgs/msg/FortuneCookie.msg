@@ -1,0 +1,2 @@
+string fortune
+int32 lucky_number

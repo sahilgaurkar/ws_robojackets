@@ -1,0 +1,6 @@
+<launch> <!-- Every XML launch file will start with launch tag-->
+    <node pkg="turtlesim" exec="turtlesim_node">
+        <param from="$(find-pkg-share rj_training)/config/turtlesim_params.yaml" />
+    </node>
+    <node pkg="turtlesim" exec="draw_square" />
+</launch>

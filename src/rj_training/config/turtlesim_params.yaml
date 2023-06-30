@@ -1,0 +1,5 @@
+turtlesim: #Node name for the parameters
+  ros__parameters: # Setting ROS parameters
+    background_r: 0 # parameter names and values
+    background_g: 255
+    background_b: 0

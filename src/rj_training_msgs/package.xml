@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rj_training_msgs</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="sahilgaurkar@gmail.com">sahil</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rosidl_default_generators</build_depend> 
+  <!-- Include all the tools needed to convert interface files to python and Cpp code -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <!-- Includes all libraries and resources needed to use our messages at runtime -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  <!-- This is going to register our package name as the member of the rosidl interface packages group -->
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
